@@ -1,4 +1,4 @@
-# finance
+# CS50 finance
 
 attention beforehand, if you want to try this application use the CS50 IDE!
 
