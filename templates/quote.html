@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    <form action="/quote"  method="post">
+        <div class="input-group quote-form pl-0">
+            <input required name="symbol" type="text" placeholder="Symbol" class="form-control" autofocus/>
+            <div class="input-group-append">
+                <button id="find" type="submit" class="btn btn-primary form-control"><i class="fas fa-search text-grey"></i></button>
+            </div>
+        </div>
+    </form>
+{% endblock %}
